@@ -1,0 +1,115 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background image for the body */
+body {
+  background-image: url('your-background-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #333; /* Text color */
+}
+
+/* Header styles */
+.header {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation menu styles */
+.nav-menu {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-item a:hover {
+  color: #c271ff; /* Change color on hover */
+}
+
+/* Banner section styles */
+.banner {
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #c271ff; /* Button background color */
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #8650a3; /* Button color on hover */
+}
+
+/* Other sections and styles go here */
+
+/* Footer styles */
+.footer {
+  background-color: #333; /* Footer background color */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.flogo {
+  max-width: 100px;
+  height: auto;
+}
+
+.social a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Add more styles for other sections as needed */
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  /* Add responsive styles here */
+}
+
